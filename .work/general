@@ -1,0 +1,41 @@
+# Quick folders access
+WORK_DIR="/d/Work"
+
+alias cd.work="cd ${WORK_DIR}"
+
+# Special work related aliases
+alias svn.update="svn update --username=adrian.siminciuc"
+alias svn.commit="svn commit --username=adrian.siminciuc"
+alias svn.revert="svn revert --recursive --non-interactive --username=adrian.siminciuc"
+
+#java
+JAVA_BIN=/c/Program\ Files/Java/jdk1.8.0_102/bin
+ANDROID_BIN=/c/android-sdk/platform-tools
+
+#android
+alias adb.log.debug="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG"
+alias adb.log.unity="adb logcat -s Unity DEBUG"
+alias adb.log.clear="adb logcat -c"
+alias adb.log.errors="adb logcat *:E"
+alias adb.tcpip="adb tcpip"
+alias adb.connect="adb connect"
+alias adb.devices="adb devices"
+
+
+alias git.branch.new="git checkout -b"
+alias git.branch.push="git push origin"
+alias git.branch.list="git branch"
+alias git.branch.delete="git branch -d"
+alias git.branch.switch="git checkout"
+alias git.remote.add="git remote add"
+alias git.remote.list="git remote -v"
+alias git.push="git push"
+alias git.fetch="git fetch"
+alias git.pull="git pull"
+alias git.commit="git commit -m"
+alias git.status="git status"
+alias git.log="git log --full-diff -p ."
+alias git.add="git add "
+alias git.merge="git merge"
+
+export PATH="${ANDROID_BIN}:${JAVA_BIN}:${PATH}"
