@@ -38,8 +38,11 @@ alias git.push.om="git push origin master"
 alias git.push.od="git push origin develop"
 alias git.push="git push"
 
-alias git.fetch="git fetch"
+alias git.pull.om="git pull origin master"
+alias git.pull.od="git pull origin develop"
 alias git.pull="git pull"
+
+alias git.fetch="git fetch"
 alias git.commit="git commit -m"
 alias git.status="git status"
 alias git.add="git add"
