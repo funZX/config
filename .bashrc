@@ -55,7 +55,7 @@ parse_git_branch()
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-PS1='[\u@\[\033[01;33m\]\H\[\033[00m\] \W\[\033[32m\]$(parse_git_branch)\[\033[00m\]]\$ '
+PS1='[\u@\[\033[01;33m\]\H\[\033[00m\] \[\033[01;34m\]\W\[\033[00m\]\[\033[32m\]$(parse_git_branch)\[\033[00m\]]\$ '
 
 #disable XOFF
 stty ixany

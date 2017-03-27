@@ -3,7 +3,7 @@ WORK_DIR="/d/Work"
 
 alias cd.work="cd ${WORK_DIR}"
 
-# Special work related aliases
+# svn
 alias svn.update="svn update --username=adrian.siminciuc"
 alias svn.commit="svn commit --username=adrian.siminciuc"
 alias svn.revert="svn revert --recursive --non-interactive --username=adrian.siminciuc"
@@ -12,7 +12,7 @@ alias svn.revert="svn revert --recursive --non-interactive --username=adrian.sim
 JAVA_BIN=/c/Program\ Files/Java/jdk1.8.0_102/bin
 ANDROID_BIN=/c/android-sdk/platform-tools
 
-#android
+#android adb
 alias adb.log.debug="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG"
 alias adb.log.unity="adb logcat -s Unity DEBUG"
 alias adb.log.clear="adb logcat -c"
@@ -21,7 +21,7 @@ alias adb.tcpip="adb tcpip"
 alias adb.connect="adb connect"
 alias adb.devices="adb devices"
 
-
+# git
 alias git.branch.new="git checkout -b"
 alias git.branch.push="git push origin"
 alias git.branch.list="git branch"
@@ -34,6 +34,7 @@ alias git.remote.list="git remote -v"
 alias git.log.oneline="git log --graph --oneline"
 alias git.log.fulldiff="git log --graph --full-diff -p"
 
+alias git.push.tags="git push --tags"
 alias git.push.om="git push origin master"
 alias git.push.od="git push origin develop"
 alias git.push="git push"
