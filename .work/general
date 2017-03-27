@@ -11,6 +11,7 @@ alias svn.revert="svn revert --recursive --non-interactive --username=adrian.sim
 #java
 JAVA_BIN=/c/Program\ Files/Java/jdk1.8.0_102/bin
 ANDROID_BIN=/c/android-sdk/platform-tools
+ANT_HOME=/c/apache-ant
 
 #android adb
 alias adb.log.debug="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG"
@@ -54,4 +55,4 @@ alias git.rebase="git rebase"
 
 alias mongo.start='mongod --dbpath=c:/mongodb/data/'
 
-export PATH="${ANDROID_BIN}:${JAVA_BIN}:${PATH}"
+export PATH="${ANDROID_BIN}:${JAVA_BIN}:${ANT_HOME}/bin:${PATH}"
