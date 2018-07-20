@@ -3,11 +3,6 @@ WORK_DIR="/d/Work"
 
 alias cd.work="cd ${WORK_DIR}"
 
-# svn
-alias svn.update="svn update --username=adrian.siminciuc"
-alias svn.commit="svn commit --username=adrian.siminciuc"
-alias svn.revert="svn revert --recursive --non-interactive --username=adrian.siminciuc"
-
 #java
 JAVA_BIN=/c/Program\ Files/Java/jdk1.8.0_102/bin
 ANDROID_BIN=/c/android-sdk/platform-tools
