@@ -3,42 +3,19 @@ WORK_DIR="/d/Work"
 
 alias cd.work="cd ${WORK_DIR}"
 
-#java
-JAVA_BIN=/c/Program\ Files/Java/jdk1.8.0_102/bin
-ANDROID_BIN=/c/android-sdk/platform-tools
-ANT_HOME=/c/apache-ant
-
-#android adb
-alias adb.log.debug="adb logcat -s Unity ActivityManager PackageManager dalvikvm DEBUG"
-alias adb.log.unity="adb logcat -s Unity DEBUG"
-alias adb.log.clear="adb logcat -c"
-alias adb.log.errors="adb logcat *:E"
-alias adb.tcpip="adb tcpip"
-alias adb.connect="adb connect"
-alias adb.devices="adb devices"
-
 # git
 alias git.branch.new="git checkout -b"
-alias git.branch.push="git push origin"
-alias git.branch.list="git branch"
-alias git.branch.delete="git branch -d"
-alias git.branch.switch="git checkout"
+alias git.branch.ls="git branch"
+alias git.branch.del="git branch -d"
 
 alias git.remote.add="git remote add"
 alias git.remote.list="git remote -v"
 
-alias git.log.oneline="git log --graph --oneline"
-alias git.log.fulldiff="git log --graph --full-diff -p"
+alias git.log.one="git log --graph --oneline"
+alias git.log.full="git log --graph --full-diff -p"
 
-alias git.push.tags="git push --tags"
-alias git.push.om="git push origin master"
-alias git.push.od="git push origin develop"
 alias git.push="git push"
-
-alias git.pull.om="git pull origin master"
-alias git.pull.od="git pull origin develop"
 alias git.pull="git pull"
-
 alias git.fetch="git fetch"
 alias git.commit="git commit -m"
 alias git.status="git status"
@@ -47,7 +24,6 @@ alias git.merge="git merge --no-ff"
 alias git.diff="git diff"
 alias git.checkout="git checkout"
 alias git.rebase="git rebase"
+alias git.reset="git reset"
 
-alias mongo.start='mongod --dbpath=c:/mongodb/data/'
-
-export PATH="${ANDROID_BIN}:${JAVA_BIN}:${ANT_HOME}/bin:${PATH}"
+export PATH="${PATH}"
