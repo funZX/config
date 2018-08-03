@@ -1,0 +1,9 @@
+.bash_history
+.bash_profile
+.cache/
+.inputrc
+.minttyrc
+.profile
+.ssh/
+.viminfo
+bin/
