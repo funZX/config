@@ -25,5 +25,6 @@ alias git.diff="git diff"
 alias git.checkout="git checkout"
 alias git.rebase="git rebase"
 alias git.reset="git reset"
+alias git.clean="git clean -fdx"
 
 export PATH="${PATH}"
