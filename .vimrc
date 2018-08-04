@@ -5,4 +5,3 @@ source ~/.vim/config/mappings.vim
 source ~/.vim/config/abbreviations.vim
 source ~/.vim/config/commands.vim
 
-colorscheme default

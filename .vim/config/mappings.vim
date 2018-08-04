@@ -2,6 +2,7 @@
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>Q :q!<cr>
+nmap <leader>u :Unite<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
@@ -41,6 +42,4 @@ nnoremap <C-S-Left> :tabprevious<CR>
 nnoremap <C-S-Right> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
 
-nnoremap <C-n> :NERDTreeToggle<CR> 
-nnoremap <C-f> :Unite file file_rec<CR>
-nnoremap <C-o> :Unite file<CR>
+nnoremap <C-o> :Unite file file_rec buffer file_mru<CR>
