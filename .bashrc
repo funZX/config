@@ -49,6 +49,9 @@ alias ssu='sudo su -'
 alias sa='source ~/.ssh/agent-vars' 
 alias sa-net='source ~/.ssh/agent-vars-netsec' 
 
+# X
+alias X='startx &> /dev/null &'
+
 # set a fancy prompt
 parse_git_branch()
 {
