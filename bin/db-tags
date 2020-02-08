@@ -1,0 +1,2 @@
+#! /bin/bash
+git ls-files | ctags --links=no --languages=c,c++,c#,lua,python -L-
