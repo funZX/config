@@ -2,4 +2,4 @@
 	email = asiminciuc@yahoo.com
 	name = funZX
 [core]
-	autocrlf = true
+	autocrlf = input
