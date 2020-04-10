@@ -28,4 +28,9 @@ alias git.rebase="git rebase"
 alias git.reset="git reset"
 alias git.clean="git clean -fdx"
 
+ssh-agent `eval`
+ssh-add ~/.ssh/*-rsa
+alias ssh='ssh -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null"'
+alias scp='scp -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null"'
+
 export PATH="${PATH}"
